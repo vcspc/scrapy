@@ -10,7 +10,8 @@ Este é um projeto simples de web scraping que extrai texto de páginas da web e
     ```bash
     pip install -r requirements.txt
     ```
-3.  Execute o script:
+3.  No arquivo `web_scraper.py`, na função `main()`, altere a variável `start_url` para a URL do site que você deseja raspar.
+4.  Execute o script:
 
     ```bash
     python web_scraper.py
