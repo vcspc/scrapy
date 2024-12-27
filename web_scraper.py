@@ -30,7 +30,7 @@ def find_links(url):
         return []
 
 def main():
-    start_url = "https://www.example.com"  # Substitua pela URL do site que você quer raspar
+    start_url = "https://ai.google.dev/edge/mediapipe/solutions/text/text_embedder?hl=pt-br"  # Substitua pela URL do site que você quer raspar
     visited_urls = set()
     urls_to_visit = [start_url]
 
